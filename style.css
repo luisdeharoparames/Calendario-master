@@ -1,0 +1,158 @@
+.inputMonthWrong {
+  background-color: red;
+}
+
+.inputMonthRight {
+  background-color: green;
+}
+
+#divFormMonth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px solid #ececec;
+  box-shadow: 2px -2px 5px #413e3e;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem 1rem;
+}
+
+#month {
+  text-decoration: none;
+  padding: 0.425rem;
+}
+
+#month:hover {
+  border-style: 20px;
+  border-color: black;
+  box-shadow: 1px 1px 1px black;
+}
+
+#year {
+  text-decoration: none;
+  padding: 0.425rem;
+}
+
+#year:hover {
+  border-style: 20px;
+  border-color: black;
+  box-shadow: 1px 1px 1px black;
+}
+
+#divFormYear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px solid #ececec;
+  box-shadow: 2px 2px 5px #413e3e;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem 1rem;
+}
+
+#divButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#buttonStyle {
+  text-decoration: none;
+  padding: 0.525rem;
+  border-radius: 150px;
+  cursor: pointer;
+}
+
+#buttonStyle:hover {
+  background-color: #1d252c;
+  color: white;
+  font-size: 15px;
+}
+
+div#divExplicacion {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#app {
+  border: 1px solid #ececec;
+  box-shadow: 2px 2px 5px #eaeaea;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem 1rem;
+}
+
+.h1Calendar {
+  text-align: center;
+}
+
+#renderCalendar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0px 40px 30px -20px rgba(0, 0, 0, 0.3);
+}
+
+.containerMonth {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  margin: 0.3rem;
+  zoom: 0.6;
+}
+
+.boxMonth {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* background: #423f56; */
+  font-size: 22px;
+}
+
+.divAllMonths {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.h1Title {
+  background: #1d252c;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.day-name {
+  background: #1d252c;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+.divDays {
+  background: #fff;
+  padding: 0.625rem;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divDays:hover {
+  background: #1d252c;
+  color: white;
+  border-radius: 150px;
+}

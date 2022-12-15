@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript project</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1 class="h1Calendar"></h1>
+    <div id="app">
+      <form id="myForm">
+        <div id="divFormMonth">
+          <label for="month"> Introduce el mes: </label>
+          <input type="text" id="month" name="month" placeholder="enero..." />
+        </div>
+
+        <div id="divFormYear">
+          <label for="year"> Introduce el año: </label>
+          <input type="text" id="year" name="year" placeholder="2000" />
+        </div>
+        <div id="divExplicacion">
+          <label for=""
+            >*Si Introduces mes y año solo mostrara por pantalla el mes del año
+            seleccionado</label
+          >
+          <label for=""
+            >*Si Introduces el año solo mostrara por pantalla los meses del año
+            seleccionado</label
+          >
+        </div>
+        <div id="divButton">
+          <button type="submit" id="buttonStyle">Aceptar</button>
+        </div>
+      </form>
+    </div>
+    <div id="renderCalendar"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
